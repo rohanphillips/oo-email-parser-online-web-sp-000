@@ -10,7 +10,7 @@ class EmailAddressParser
     self.email_addresses_list = email_addresses
   end
 
-  def self.parse
+  def parse
 
   end
 
