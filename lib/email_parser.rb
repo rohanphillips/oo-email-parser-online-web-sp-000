@@ -11,7 +11,7 @@ class EmailAddressParser
   end
 
   def parse
-    binding.pry
+    
     self.email_addresses_list.split("/[,]/")
   end
 
