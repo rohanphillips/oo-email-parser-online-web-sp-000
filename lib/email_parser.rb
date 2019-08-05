@@ -6,7 +6,7 @@
 class EmailAddressParser
   attr_accessor :email_addresses
   @email_addresses
-  def self.new()
+  def self.new(email_addresses)
     #@email_addresses = email_addresses
   end
 
