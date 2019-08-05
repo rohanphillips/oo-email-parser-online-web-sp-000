@@ -11,8 +11,9 @@ class EmailAddressParser
   end
 
   def parse
-    collection = self.email_addresses_list.split(",").collect{{|n| n.trim}}
-
+    collection = self.email_addresses_list.split(",")
+    collection.collect{|n| n.trim}
+    collection
   end
 
 end
