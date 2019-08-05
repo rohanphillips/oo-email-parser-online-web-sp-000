@@ -11,7 +11,7 @@ class EmailAddressParser
   end
 
   def self.parse
-
+    return[]
   end
 
 end
