@@ -11,7 +11,8 @@ class EmailAddressParser
   end
 
   def parse
-    self.email_addresses_list
+    collection = []
+    collection << self.email_addresses_list
   end
 
 end
