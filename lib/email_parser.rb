@@ -11,7 +11,7 @@ class EmailAddressParser
   end
 
   def parse
-    self.email_addresses_list.split(",")
+    self.email_addresses_list.split(",").chomp
   end
 
 end
