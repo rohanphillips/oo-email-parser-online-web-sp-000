@@ -12,7 +12,7 @@ class EmailAddressParser
 
   def parse
     collection = self.email_addresses_list.split(/[,\s]+/)
-    collection.collect{|n| n.strip}
+    #collection.collect{|n| n.strip}
   end
 
 end
