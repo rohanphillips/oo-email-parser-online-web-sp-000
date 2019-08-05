@@ -10,8 +10,8 @@ class EmailAddressParser
     @email_addresses = email_addresses
   end
 
-  def parse(email_addresses)
-    return[]
+  def parse
+
   end
 
 end
