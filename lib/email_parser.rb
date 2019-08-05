@@ -4,10 +4,10 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-  attr_accessor :email_addresses
+  attr_accessor :email_addresses_list
   @email_addresses
   def self.new(email_addresses)
-    @email_addresses = email_addresses
+    self.email_addresses_list = email_addresses
   end
 
   def self.parse
